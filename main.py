@@ -28,7 +28,6 @@ while os.path.isfile(f'digits/digit{_img}.png'):
     try:
         
         img = cv2.imread(f'digits/digit{_img}.png')[:,:,0]
-        img = cv2.resize(img, (28, 28))
         img = np.invert(np.array([img]))
         prediction = model.predict(img)
         print(f"Prediction: {np.argmax(prediction)}")
