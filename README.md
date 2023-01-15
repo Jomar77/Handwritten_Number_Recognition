@@ -1,7 +1,7 @@
-# Project Title: Dog and Cat Image Classification
+# Handwritten Number Recognition
 
 ## Overview
-This project is focused on creating a machine learning model to classify images as either a dog or a cat. The model will be trained using a dataset of labeled images and then tested on a set of new, unseen images. The goal is to achieve a high level of accuracy in classifying new images.
+This project is a machine learning model that is able to recognize handwritten numbers. The model is trained on the MNIST dataset, which contains 60,000 images of handwritten digits. The model is able to recognize digits with an accuracy of over 87%.
 
 ## Dataset
 The dataset used for training and testing the model will be the [Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats) dataset which contains 25,000 images of dogs and cats. Each image is labeled as either "dog" or "cat".
