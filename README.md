@@ -12,7 +12,7 @@ This project is a machine learning model that is able to recognize handwritten n
 ## Usage
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/handwritten-number-recognition.git
+git clone https://github.com/Jomar77/handwritten-number-recognition.git
 ```
 2. Install the required packages:
 ```
